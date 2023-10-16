@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+    display: grid;
+    place-items: center;
+}
+
+#num1 {
+    width: 100px;
+    background-color: rgba(128, 128, 128, 0.199);
+}
+
+#num2 {
+    width: 100px;
+    background-color: rgba(128, 128, 128, 0.199);
+}
+
+select {
+    font-size: 15px;
+    background-color: rgba(248, 244, 8, 0.185);
+    font-weight: bolder;
+}
+
+option {
+    font-size: 25px;
+}
+
+#res {
+    width: 255px;
+    height: 22px;
+    margin-top: 5px;
+    border: 3px solid rgb(243, 200, 60);
+    color: rgb(255, 255, 255);
+    background-color: gray;
+    text-align: center;
+}
